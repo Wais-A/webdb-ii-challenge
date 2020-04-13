@@ -33,7 +33,7 @@ function insert(car){
  }
 
  function remove(id){
-  return db('post')
+  return db('cars')
   .where('id', id)
   .del();
  }
